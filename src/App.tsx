@@ -1,4 +1,5 @@
 // src/App.tsx
+// Svak iymena ima svoj komnetar
 // 1. SVI import-i na vrhu
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
