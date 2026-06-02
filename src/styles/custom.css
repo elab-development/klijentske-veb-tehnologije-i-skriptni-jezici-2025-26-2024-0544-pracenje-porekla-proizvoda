@@ -56,3 +56,25 @@ body {
 .app-navbar .navbar-toggler {
   border-color: rgba(0,0,0,0.15);
 }
+
+/* Footer styles */
+.app-footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1.25rem 0;
+  margin-top: 2rem;
+}
+
+.app-footer .footer-company {
+  font-size: 0.95rem;
+}
+
+.app-footer .footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.app-footer .footer-links a:hover {
+  text-decoration: underline;
+}
