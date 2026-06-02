@@ -19,14 +19,40 @@ body {
   background: transparent;
 }
 
+/* Make the navbar brand clearer and flush-left */
+.navbar .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .nav-brand-oldlatin {
-  font-family: 'Old English Text MT', 'Lucida Blackletter', 'Garamond',
-    'Palatino Linotype', 'Book Antiqua', serif;
-  font-size: 1.2rem;
-  letter-spacing: 0.06em;
-  font-weight: 700;
-  color: #f6e7b2;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
-  text-transform: uppercase;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  font-weight: 800;
+  color: #333333;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+  text-transform: none;
   line-height: 1;
+  margin-right: 8px;
+}
+
+/* App-specific navbar adjustments: narrower than page, rounded, custom bg */
+.app-navbar {
+  background-color: #F6F3CD !important;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.app-navbar .navbar-brand-custom {
+  padding-left: 12px;
+}
+
+.app-navbar .nav-link {
+  color: #333333 !important;
+  font-weight: 600;
+}
+
+.app-navbar .navbar-toggler {
+  border-color: rgba(0,0,0,0.15);
 }
