@@ -1,4 +1,32 @@
 /* src/styles/custom.css */
 body {
-  background-color: #f4f7fc;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F6F3CD;
+  background-image: url('../images/pozadina1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.page-background {
+  min-height: calc(100vh - 56px);
+  padding: 2rem 0 3rem;
+  background: transparent;
+}
+
+.nav-brand-oldlatin {
+  font-family: 'Old English Text MT', 'Lucida Blackletter', 'Garamond',
+    'Palatino Linotype', 'Book Antiqua', serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: #f6e7b2;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+  text-transform: uppercase;
+  line-height: 1;
 }

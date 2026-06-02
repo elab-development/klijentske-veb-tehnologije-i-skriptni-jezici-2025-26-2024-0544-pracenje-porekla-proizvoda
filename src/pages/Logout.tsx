@@ -15,9 +15,11 @@ const Logout: React.FC = () => {
   }, [navigate]);
 
   return (
-    <Container className="mt-4">
-      <Alert variant="info">Uspešno ste se odjavili. Preusmeravanje na login...</Alert>
-    </Container>
+    <div className="page-background page-logout">
+      <Container className="mt-4">
+        <Alert variant="info">Uspešno ste se odjavili. Preusmeravanje na login...</Alert>
+      </Container>
+    </div>
   );
 };
 

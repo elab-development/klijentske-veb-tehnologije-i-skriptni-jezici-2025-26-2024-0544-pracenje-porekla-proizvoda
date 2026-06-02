@@ -50,9 +50,10 @@ const Login: React.FC = () => {
   };
 
   return (
-    <Container className="mt-4">
-      <Row className="justify-content-md-center">
-        <Col md={6}>
+    <div className="page-background page-login">
+      <Container className="mt-4">
+        <Row className="justify-content-md-center">
+          <Col md={6}>
           <h2>Prijava</h2>
           {showSuccess && <Alert variant="success">Uspešno ste prijavljeni! Preusmeravanje...</Alert>}
           <CustomField
@@ -77,8 +78,9 @@ const Login: React.FC = () => {
             Prijavi se
           </CustomButton>
         </Col>
-      </Row>
-    </Container>
+        </Row>
+      </Container>
+    </div>
   );
 };
 

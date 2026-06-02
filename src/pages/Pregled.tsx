@@ -117,21 +117,6 @@ class UserService {
           { id: 325, name: 'Clynelish 14', category: 'Novi Zeland', price: 5300, userId: 3 },
         ]
       },
-      {
-        id: 4,
-        email: 'pavle@example.com',
-        name: 'Pavle Pavlović',
-        products: [
-          { id: 401, name: 'Pavlove 5 Years', category: 'Srbija', price: 3900, userId: 4 },
-          { id: 402, name: 'Belgrade Barrel Select', category: 'Srbija', price: 4700, userId: 4 },
-          { id: 403, name: 'Nikšić Single Malt', category: 'Crna Gora', price: 5200, userId: 4 },
-          { id: 404, name: 'Glenlivet 15', category: 'Škotska', price: 7200, userId: 4 },
-          { id: 405, name: 'Jameson Caskmates', category: 'Irska', price: 3600, userId: 4 },
-          { id: 406, name: 'Nikka Coffey Grain', category: 'Japan', price: 8400, userId: 4 },
-          { id: 407, name: 'Ardbeg Corryvreckan', category: 'Škotska', price: 9800, userId: 4 },
-          { id: 408, name: 'Teeling Single Grain', category: 'Irska', price: 4500, userId: 4 },
-        ]
-      },
     ];
   }
 }
@@ -244,8 +229,9 @@ const Pregled: React.FC = () => {
   };
 
   return (
-    <Container className="mt-4">
-      <h2>Pregled viskija</h2>
+    <div className="page-background page-pregled">
+      <Container className="mt-4">
+        <h2>Pregled viskija</h2>
       {currentUser && <p className="mb-4">Trenutno prijavljen: <strong>{currentUser}</strong></p>}
 
       <Row className="mb-4 d-flex align-items-end gap-2">
@@ -328,7 +314,8 @@ const Pregled: React.FC = () => {
         </tbody>
       </Table>
       {renderPagination(currentPageAllProducts, totalPagesAllProducts, setCurrentPageAllProducts)}
-    </Container>
+      </Container>
+    </div>
   );
 };
 

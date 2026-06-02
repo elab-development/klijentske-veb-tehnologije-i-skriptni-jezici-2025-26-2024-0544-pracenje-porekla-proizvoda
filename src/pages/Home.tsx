@@ -4,9 +4,10 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Home: React.FC = () => {
   return (
-    <Container className="mt-4">
-      <Row>
-        <Col>
+    <div className="page-background page-home">
+      <Container className="mt-4">
+        <Row>
+          <Col>
           <Card className="text-center">
             <Card.Body>
               <Card.Title>Dobrodošli na sajt</Card.Title>
@@ -16,8 +17,9 @@ const Home: React.FC = () => {
             </Card.Body>
           </Card>
         </Col>
-      </Row>
-    </Container>
+        </Row>
+      </Container>
+    </div>
   );
 };
 

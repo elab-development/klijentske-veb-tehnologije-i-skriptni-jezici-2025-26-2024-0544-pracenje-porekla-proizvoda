@@ -49,9 +49,10 @@ const Kontakt: React.FC = () => {
   };
 
   return (
-    <Container className="mt-4">
-      <Row>
-        <Col md={8} className="mx-auto">
+    <div className="page-background page-kontakt">
+      <Container className="mt-4">
+        <Row>
+          <Col md={8} className="mx-auto">
           <h2>Kontakt forma</h2>
           {sent && <Alert variant="success">Poruka je poslata!</Alert>}
           <CustomField
@@ -85,8 +86,9 @@ const Kontakt: React.FC = () => {
             Pošalji poruku
           </CustomButton>
         </Col>
-      </Row>
-    </Container>
+        </Row>
+      </Container>
+    </div>
   );
 };
 

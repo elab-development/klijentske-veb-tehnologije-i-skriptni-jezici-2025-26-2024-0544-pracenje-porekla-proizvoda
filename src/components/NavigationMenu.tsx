@@ -10,7 +10,7 @@ const NavigationMenu: React.FC = () => {
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center gap-2">
           <Image src={whiskeyImage} alt="Whiskey glass" width={32} height={32} rounded />
-          <span>Moja Aplikacija</span>
+          <span className="nav-brand-oldlatin">ČISTA KAP</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
