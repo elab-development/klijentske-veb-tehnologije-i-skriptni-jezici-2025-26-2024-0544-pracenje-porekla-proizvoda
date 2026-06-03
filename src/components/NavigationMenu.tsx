@@ -17,6 +17,7 @@ const NavigationMenu: React.FC = () => {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Početna</Nav.Link>
             <Nav.Link as={Link} to="/login">Login</Nav.Link>
+            <Nav.Link as={Link} to="/register">Registracija</Nav.Link>
             <Nav.Link as={Link} to="/logout">Logout</Nav.Link>
             <Nav.Link as={Link} to="/kontakt">Kontakt</Nav.Link>
             <Nav.Link as={Link} to="/pregled">Pregled</Nav.Link>
