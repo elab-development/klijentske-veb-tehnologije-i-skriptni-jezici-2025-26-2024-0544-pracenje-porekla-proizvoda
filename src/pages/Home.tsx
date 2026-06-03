@@ -21,7 +21,7 @@ const Home: React.FC = () => {
         {/* Red 1: Slika pozadina2 (levo) + tekst o viskiju (desno) */}
         <Row className="mb-5 align-items-center">
           <Col md={6} className="mb-3 mb-md-0">
-            <Image src={pozadina2} alt="Whiskey production" fluid rounded style={{ borderRadius: '25%' }} />
+            <Image src={pozadina2} alt="Whiskey production" fluid rounded className="home-rounded-img" />
           </Col>
           <Col md={6}>
             <div className="p-4 bg-light rounded" style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)', borderRadius: '25%' }}>
@@ -60,14 +60,14 @@ const Home: React.FC = () => {
             </div>
           </Col>
           <Col md={6} className="mb-3 mb-md-0">
-            <Image src={pozadina3} alt="World map whiskey regions" fluid rounded style={{ borderRadius: '25%' }} />
+            <Image src={pozadina3} alt="World map whiskey regions" fluid rounded className="home-rounded-img-secondary" />
           </Col>
         </Row>
 
         {/* Red 3: Slika (levo) + tekst o zdravlju (desno) */}
         <Row className="mb-5 align-items-center">
           <Col md={6} className="mb-3 mb-md-0">
-            <Image src={zdravlje} alt="Health consciousness" fluid rounded style={{ borderRadius: '25%' }} />
+            <Image src={zdravlje} alt="Health consciousness" fluid rounded className="home-rounded-img-secondary" />
           </Col>
           <Col md={6}>
             <div className="p-4 bg-light rounded" style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)', borderRadius: '25%' }}>

@@ -45,16 +45,31 @@ body {
 }
 
 .app-navbar .navbar-brand-custom {
-  padding-left: 12px;
+  padding-left: 16px;
+  margin-right: 1.8rem;
 }
 
 .app-navbar .nav-link {
   color: #333333 !important;
   font-weight: 600;
+  margin-right: 0.9rem;
+}
+
+.app-navbar .nav-link:last-child {
+  margin-right: 0;
 }
 
 .app-navbar .navbar-toggler {
   border-color: rgba(0,0,0,0.15);
+}
+
+/* Image rounding for homepage visuals */
+.home-rounded-img {
+  border-radius: 12px !important;
+}
+
+.home-rounded-img-secondary {
+  border-radius: 60px !important;
 }
 
 /* Footer styles */
