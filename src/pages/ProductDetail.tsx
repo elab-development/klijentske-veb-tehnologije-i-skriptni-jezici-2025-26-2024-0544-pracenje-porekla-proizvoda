@@ -73,7 +73,7 @@ const ProductDetail: React.FC = () => {
                     <strong>Preporučeni način posluženja:</strong> Viskije se najbolje uživaju čist, blago ohlađen, ili sa nekoliko kocki leda. Dodajte malo vode da otvorite arome i ublažite alkoholnu temperaturu. Konzumirajte sporо i sa razmakom između gutljaja kako biste u potpunosti doživeli sve note. Za hladnije veče, probajte malo zagrejanu čašu.
                   </p>
                   <p>
-                    <strong>Preporučena parenja:</strong> Viski se odličko kombinuje sa dimljenom ribom, tvrdom, kpravim hlebom ili delikatnim desertima sa tamnijom čokoladom. Izbjegavajte masno jezivica jer mogu da preplače arome.
+                    <strong>Preporučena kombinacija:</strong> Viski se odličko kombinuje sa dimljenom ribom, tvrdom, kpravim hlebom ili delikatnim desertima sa tamnijom čokoladom. Izbjegavajte masno jezivica jer mogu da preplače arome.
                   </p>
                     </Col>
                   </Row>
