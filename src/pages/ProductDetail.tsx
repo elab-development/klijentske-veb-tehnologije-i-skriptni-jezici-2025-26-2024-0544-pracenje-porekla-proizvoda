@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Container, Row, Col, Button, Badge } from 'react-bootstrap';
+import { Container, Row, Col, Button, Badge, Image } from 'react-bootstrap';
 import { IProduct } from '../interfaces/IProduct';
 import { UserService } from '../services/UserService';
+import proizvod1 from '../images/proizvod1.png';
 
 const ProductDetail: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -48,9 +49,14 @@ const ProductDetail: React.FC = () => {
               </Col>
             </Row>
             <Row className="mb-4">
-              <Col md={8}>
+              <Col md={12}>
                 <div className="p-4 bg-light rounded" style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)' }}>
-                  <h3>{product.name}</h3>
+                  <Row>
+                    <Col md={4} className="mb-3 mb-md-0 d-flex align-items-center justify-content-center">
+                      <Image src={proizvod1} alt={product.name} fluid rounded />
+                    </Col>
+                    <Col md={8}>
+                      <h3>{product.name}</h3>
                   <p>
                     <strong>Poreklo:</strong> <Badge bg="info">{product.category}</Badge>
                   </p>
@@ -69,6 +75,8 @@ const ProductDetail: React.FC = () => {
                   <p>
                     <strong>Preporučena parenja:</strong> Viski se odličko kombinuje sa dimljenom ribom, tvrdom, kpravim hlebom ili delikatnim desertima sa tamnijom čokoladom. Izbjegavajte masno jezivica jer mogu da preplače arome.
                   </p>
+                    </Col>
+                  </Row>
                 </div>
               </Col>
             </Row>
