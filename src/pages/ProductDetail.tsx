@@ -58,8 +58,16 @@ const ProductDetail: React.FC = () => {
                     <strong>Cena:</strong> {product.price.toLocaleString('sr-RS')} din
                   </p>
                   <p>
-                    Ovo je stranica sa detaljima o proizvodu. Ovde možeš da dodaš dodatne informacije
-                    kao što su opis, nota ukusa, preporučena prateća hrana ili način posluženja.
+                    <strong>Geografsko poreklo:</strong> Viski iz regije <Badge bg="info">{product.category}</Badge> ima jedinstvene karakteristike oblikovane lokalnom klimom, vrstom vode i tradicijom destilacije. Svaki region doprosi sa specifičnim ukusom i aromom koji ga razlikuju od ostalih.
+                  </p>
+                  <p>
+                    <strong>Note ukusa:</strong> Svaki viski sadrži kompleksne arome sa kombinacijom voćnih, začinskih i drvenih nota. U noslu dominira miris fermentisanog zrna, voća i često drveta od bačve. Na nepcu, oslunja se bogat ukus sa sladkim, pikantnim ili dimnim karakteristikama, ovisno od regije porekla.
+                  </p>
+                  <p>
+                    <strong>Preporučeni način posluženja:</strong> Viskije se najbolje uživaju čist, blago ohlađen, ili sa nekoliko kocki leda. Dodajte malo vode da otvorite arome i ublažite alkoholnu temperaturu. Konzumirajte sporо i sa razmakom između gutljaja kako biste u potpunosti doživeli sve note. Za hladnije veče, probajte malo zagrejanu čašu.
+                  </p>
+                  <p>
+                    <strong>Preporučena parenja:</strong> Viski se odličko kombinuje sa dimljenom ribom, tvrdom, kpravim hlebom ili delikatnim desertima sa tamnijom čokoladom. Izbjegavajte masno jezivica jer mogu da preplače arome.
                   </p>
                 </div>
               </Col>
