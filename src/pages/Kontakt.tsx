@@ -25,7 +25,7 @@ const Kontakt: React.FC = () => {
       newErrors.email = 'Email je obavezan';
       isValid = false;
     } else if (!validator.validateEmail(email)) {
-      newErrors.email = 'Neispravan email';
+      newErrors.email = 'Neispravan format email-a';
       isValid = false;
     }
     if (!validator.validateRequired(message)) {
