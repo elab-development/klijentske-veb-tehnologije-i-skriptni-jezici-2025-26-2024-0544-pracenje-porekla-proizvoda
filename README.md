@@ -2,11 +2,11 @@
 
 Verzija 1.0
 
-## Description
+## Opis
 
 Aplikacija omogućava praćenje porekla proizvoda koji su od interesa krajnjeg korisnika. Cilj aplikacije je pružiti transparentnost u lancu snabdevanja, omogućavajući korisnicima da saznaju informacije o svim proizvodima koji su za njih od interesa uključujući poreklo, karakteristie proizvoda i odalih osobina povezanih sa predmetnim proizvodima.
 
-## Key Features
+## Ključne funkcionalnost
 
 - Registracija novog korisnika. 
 - Login i logout koristinka.
@@ -16,13 +16,13 @@ Aplikacija omogućava praćenje porekla proizvoda koji su od interesa krajnjeg k
 - Paginacija stranice pregleda proizvoda.
 - Kontakt forma.
  
-# Getting Started with Create React App
+## Kako početi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sledite ove instrukcije kako biste pokrenuli projekat na svojoj lokalnoj mašini.
 
-## Available Scripts
+## Dostupne skripte
 
-In the project directory, you can run:
+U osnovnom direktorijumu projekta, možete pokrenuti:
 
 ### `npm start`
 
