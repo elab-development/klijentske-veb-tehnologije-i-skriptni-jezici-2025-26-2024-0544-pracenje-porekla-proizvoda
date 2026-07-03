@@ -20,7 +20,7 @@ Aplikacija omogućava praćenje porekla proizvoda koji su od interesa krajnjeg k
 
 Sledite ove instrukcije kako biste pokrenuli projekat na svojoj lokalnoj mašini.
 
-### Prerequisites
+### Preduslovi za rad
 
 Budite sigurni da imate instalirane sledeće komponente na svojoj lokalnoj mašini:
 
@@ -29,6 +29,10 @@ Budite sigurni da imate instalirane sledeće komponente na svojoj lokalnoj maši
   - Da instalirate Node.js i npm posetite oficijalni sajt:: https://nodejs.org/ i preuzmite instaler za svoj operativni sistem, prateći sledeće instrukcije.
 - `Git`
   - Da instalirate git, preuzmite instaler sa oficijalnog sajta: https://git-scm.com/download. Pokreni instaler, prateći sledeće instrukcije.
+
+## Preuzimanje koda
+
+Kompletan kod aplikacija Čista Kap možete preuzeti sa [https://github.com/elab-development/klijentske-veb-tehnologije-i-skriptni-jezici-2025-26-2024-0544-pracenje-porekla-proizvoda](https://github.com/elab-development/klijentske-veb-tehnologije-i-skriptni-jezici-2025-26-2024-0544-pracenje-porekla-proizvoda)
 
 ## Dostupne skripte
 
