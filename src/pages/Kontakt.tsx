@@ -75,7 +75,8 @@ const Kontakt: React.FC = () => {
           />
           <CustomField
             label="Poruka"
-            type="text"
+            as="textarea"
+            rows={4}
             placeholder="Vaša poruka"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
