@@ -5,6 +5,16 @@ Verzija 1.0
 ## Description
 
 Aplikacija omogućava praćenje porekla proizvoda koji su od interesa krajnjeg korisnika. Cilj aplikacije je pružiti transparentnost u lancu snabdevanja, omogućavajući korisnicima da saznaju informacije o svim proizvodima koji su za njih od interesa uključujući poreklo, karakteristie proizvoda i odalih osobina povezanih sa predmetnim proizvodima.
+
+## Key Features
+
+- Registracija novog korisnika. 
+- Login i logout koristinka.
+- Početna strana sa istorijatom posmatranog proizvoda.
+- Pregled proizvoda korisnika.
+- Detaljan pregled pojedinačnog proizvoda.
+- Paginacija stranice pregleda proizvoda.
+- Kontakt forma.
  
 # Getting Started with Create React App
 
