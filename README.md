@@ -1,3 +1,11 @@
+# Čista Kap
+
+Verzija 1.0
+
+## Description
+
+Aplikacija omogućava praćenje porekla proizvoda koji su od interesa krajnjeg korisnika. Cilj aplikacije je pružiti transparentnost u lancu snabdevanja, omogućavajući korisnicima da saznaju informacije o svim proizvodima koji su za njih od interesa uključujući poreklo, karakteristie proizvoda i odalih osobina povezanih sa predmetnim proizvodima.
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
